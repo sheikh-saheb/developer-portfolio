@@ -19,10 +19,11 @@ h1{
     width: 50%;
 } 
 .about-me img{
-    width: 70%;
+    width: 80%;
 }
 .link-button{
+    color: white;
     text-decoration: none;
-   background-color: orange;
+   background-image: linear-gradient(gold, goldenrod);
    padding: 10px 40px;
 }
