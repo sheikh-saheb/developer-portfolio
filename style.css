@@ -1,33 +1,47 @@
-body{
+body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
-h1{
+
+h1 {
     font-size: 50px;
 }
-.color-orange{
+
+.color-orange {
     color: orange;
 }
-.button{
-    text-decoration: none;
-    background-color: gold;
-}
-.section-saheb{
+
+
+section {
     display: flex;
+    padding-top: 150px;
+}
+
+.section-saheb {
+
     padding-left: 7%;
     background-image: url(Images/top-banner.png);
     background-repeat: no-repeat;
 }
-.about-me{
-    width: 50%;
-} 
-.about-me img{
-    width: 80%;
-}
-.link-button{
+
+.link-button {
     color: white;
     font-weight: 700;
     text-decoration: none;
-   background-image: linear-gradient(gold, goldenrod);
-   padding: 10px 40px;
+    background-image: linear-gradient(gold, goldenrod);
+    padding: 10px 40px;
+}
+
+.dream-big {
+    background-image: url(images/dream-bg.png);
+    background-repeat:no-repeat ;
+    background-position: right;
+}
+
+.width-half {
+    width: 50%;
+}
+
+.width-half img {
+    width: 70%;
 }
